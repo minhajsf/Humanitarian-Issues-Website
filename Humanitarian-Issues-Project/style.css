@@ -1,0 +1,137 @@
+ul{
+  background-color:rgb(199, 184, 255);
+  list-style-type: none;
+  margin:0;
+  padding:10px;
+  overflow: hidden;
+  width:flex;
+}
+
+li a
+{
+  text-decoration: none;
+  color:black;
+  font-family:cursive;
+}
+
+.item a{
+color: blue;
+font-family: courier,arial,helvetica;
+/*Verdana, Geneva, Tahoma, sans-serif*/
+text-decoration:none;
+padding:10px;
+}
+
+h1{
+  text-align: center;
+  color: rgb(200, 185, 255);
+}
+
+h4{
+  text-align: center;
+}
+
+iframe{
+  margin:0 auto;
+  display: block;
+}
+body{
+  font-family: Courier New;
+  background-color:rgb(226, 235, 254);
+}
+.container
+{
+  background-color: rgb(199, 184, 255);
+  display:flex; 
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap:wrap;
+  padding: 10px;
+  overflow:hidden;
+}
+
+.footer
+{
+  padding:10px;
+  /*position: fixed;*/
+  bottom:0;
+}
+
+#resources
+{
+  text-align: center;
+  font-size:15px;
+}
+
+#caption
+{
+  text-align: center;
+  font-size:15px;
+}
+
+.one{
+ background-color:rgb(162, 255, 253);
+ text-align:left;
+ padding:10px; /*133, 254, 244*/
+}
+.imageBox
+{
+  display:flex; 
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap:wrap;
+  padding: 10px;
+  overflow:hidden;
+}
+.comp1
+{
+  width:300px;
+  height:300px;
+  padding:20px,100px;
+}
+.two
+{
+  background-color: rgb(255, 208, 251);
+  padding:10px;
+}
+
+.flexBanner
+{
+  display:flex; 
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap:wrap;
+  padding: 10px;
+  overflow:hidden;
+
+}
+
+.nav {
+  margin: 0, 50%, 10%, 50%;
+  text-align: right;
+} 
+.button
+{
+  font-size: 20px;
+  border-radius:10px;
+  background-color:rgb(245, 100, 210);
+  /*245, 100, 210
+  226, 60, 245*/
+  color:black;
+  text-align:right;
+}
+
+h3{
+  font-family: Candara; 
+}
+
+.wordBank
+{
+  display:flex; 
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-wrap:wrap;
+  padding: 10px;
+  overflow:hidden;
+  
+}
